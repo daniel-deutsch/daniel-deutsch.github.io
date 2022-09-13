@@ -603,10 +603,18 @@ section {
 }
 
 .work-experience .work-experience-item {
-  padding: 20px 0 20px 20px;
+  padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #0563bb;
   position: relative;
+}
+
+.work-experience .work-experience-item:first-of-type {
+  margin-top: 34px;
+}
+
+.work-experience .work-experience-item:last-of-type {
+  border-left: 0;
 }
 
 .work-experience .work-experience-item h4 {
@@ -647,13 +655,15 @@ section {
   height: 16px;
   border-radius: 50px;
   left: -9px;
-  top: 42px;
+  top: -9px;
   background: #fff;
   border: 2px solid #0563bb;
 }
 
 .work-experience .work-experience-item .work-experience-item-header {
   display: flex;
+  position: relative;
+  top: -34px;;
 }
 
 .work-experience .work-experience-item .work-experience-item-header img {
@@ -663,7 +673,9 @@ section {
 }
 
 .work-experience .work-experience-item .work-experience-item-body {
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 54px 20px;
+  position: relative;
+  top: -30px
 }
 
 .work-experience .work-experience-item .work-experience-item-body p {
