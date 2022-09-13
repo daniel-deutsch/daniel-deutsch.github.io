@@ -671,6 +671,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Studies
+--------------------------------------------------------------*/
+.studies .first-study-item {
+  margin: 0 !important;
+}
+.studies .study-item {
+  margin: 60px 0 0 0; 
+}
+.studies .study-item .study-item-keywords .study-item-keyword {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #0563bb;
+  border: 1px solid #0563bb;
+  background: 0 0;
+  font-size: small;
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.projects .first-project-item {
+  margin: 0 !important;
+}
+.projects .project-item {
+  margin: 60px 0 0 0; 
+}
+.projects .project-item .project-item-keywords .project-item-keyword {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #0563bb;
+  border: 1px solid #0563bb;
+  background: 0 0;
+  font-size: small;
+}
+
+/*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
 .facts .count-box {
