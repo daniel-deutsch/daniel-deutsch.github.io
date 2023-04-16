@@ -636,7 +636,7 @@ section {
 .work-experience .work-experience-item .work-experience-item-header {
   display: flex;
   position: relative;
-  top: -34px;;
+  top: -34px;
 }
 
 .work-experience .work-experience-item .work-experience-item-header img {
@@ -656,13 +656,31 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Certificates
+--------------------------------------------------------------*/
+.certificates .certificate-item {
+  margin: 20px 0 0 0; 
+}
+.certificates .certificate-item:first-child {
+  margin: 0 0 0 0;
+}
+.certificates .certificate-item .certificate-item-header {
+  display: flex;
+  position: relative;
+}
+.certificates .certificate-item .certificate-item-header img {
+  height: 85px;
+  margin: 0 16px 0 0;
+}
+
+/*--------------------------------------------------------------
 # Studies
 --------------------------------------------------------------*/
-.studies .first-study-item {
-  margin: 0 !important;
-}
 .studies .study-item {
   margin: 60px 0 0 0; 
+}
+.studies .study-item:first-child {
+  margin: 0 !important;
 }
 .studies .study-item .study-item-keywords .study-item-keyword {
   display: inline-block;
